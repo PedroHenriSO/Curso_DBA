@@ -1,0 +1,59 @@
+# Projeto Fintech
+
+Este projeto tem intuito de por em prática o conhecimento adquirido no curso de qualificação profiisional de banco de dados do **SENAI**.
+
+#DBA #SQL
+
+## Modelo conceitual
+![Alt text](Conceitual.png)
+
+## Modelo Lógico
+![Alt text](Logico.png)
+
+## Tabelas
+
+* tb_endereco
+* tb_cliente_fisico
+* tb_cliente_juridico
+* tb_tipo_telefone
+* tb_telefone
+* tb_cliente_telefone
+* tb_tipo_transferencia
+* tb_transferencia
+* tb_tipo_conta
+* tb_conta
+
+## Views
+* vw_detalhes_transferencia: Mostra os detalhes da transferencia bancaria
+* vw_detalhes_clientes: Mostra todos os detalhes dos clientes
+* vw_transacoes_clientes: Mostra todos os detalhes de transacoes entre clientes
+
+## Routines
+* CALL calcular_saldo_medio_cliente: Ela caucula o saldo medio do cliente
+
+## Triggers
+* TRIGGER transacao_entre_contas : Ela atualiza o saldo na conta
+___________________________
+| Scripts | **Clique aqui**|
+| -       | -              |
+| CREATE DATABASE AND TABLES | [Clique aqui](Create_database_Tables.sql)|
+| -       | -              |
+| INSERT | [Clique aqui](INSERT.sql)
+| -       | -              |
+| ROUTINES | [Clique aqui](ROUTINES.sql)
+| -       | -              |
+| VIEWS | [Clique aqui](VIEWS.sql)
+| -       | -              |
+| TRIGGERS | [Clique aqui](TRIGGERS.sql)
+|    -     |               |
+| DUMP | [Clique aqui](DUMP.sql)   |
+____________________________
+
+
+## Contatos
+
+![Logo](icons8-gmail-64.png) 
+[Email](pedrohsantosolivera@gmail.com)
+_____
+![Logo](icons8-instagram-48.png) 
+[instagram](instagram.com/pedrohsantosoliveira)
